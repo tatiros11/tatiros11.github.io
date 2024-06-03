@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Languages</title>
+    <link href="lang.css" rel="stylesheet" type="text/css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li>
+          <i class="material-icons" style="color: gray">home</i>
+          <a href="/">Home</a>
+        </li>
+        <li>
+          <i class="material-icons" style="color: gray">favorite</i>
+          <a href="about.html">About</a>
+        </li>
+        <li>
+          <i class="material-icons" style="color: gray">language</i>
+          <a href="languages.html">Languages</a>
+        </li>
+      </ul>
+    </nav>
+
+    <i class="material-icons" style="color: gray" onclick="history.back()"
+      >keyboard_backspace</i
+    >
+    <span onclick="history.back()">Back</span>
+
+    <h1>Languages</h1>
+
+    <p>
+      Here are the programming languages available on Programmingo! Choose a
+      language or a lesson to get started.
+    </p>
+
+    <section>
+      <ul>
+        <img
+          src="img/Screen Shot 2024-06-02 at 7.09.21 PM.jpg"
+          alt="Photo of Creator"
+          width="30"
+        />
+
+        <button id="js">JavaScript</button>
+        <script>
+          js.addEventListener("click", function (event) {
+            window.location.href = "itj.html";
+          });
+        </script>
+        <li>
+          <button id="l1">Lesson 1</button>
+          <script>
+            l1.addEventListener("click", function (event) {
+              window.location.href = "lesson1.html";
+            });
+          </script>
+        </li>
+        <li>
+          <button id="l2">Lesson2</button>
+          <script>
+            l2.addEventListener("click", function (event) {
+              window.location.href = "lesson1.html";
+            });
+          </script>
+        </li>
+      </ul>
+    </section>
+  </body>
+</html>

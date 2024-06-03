@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lesson 2</title>
+    <link href="lesson2.css" rel="stylesheet" type="text/css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li>
+          <i class="material-icons" style="color: gray">home</i>
+          <a href="/">Home</a>
+        </li>
+        <li>
+          <i class="material-icons" style="color: gray">favorite</i>
+          <a href="about.html">About</a>
+        </li>
+        <li>
+          <i class="material-icons" style="color: gray">language</i>
+          <a href="languages.html">Languages</a>
+        </li>
+      </ul>
+    </nav>
+
+    <i class="material-icons" style="color: gray" onclick="history.back()"
+      >keyboard_backspace</i
+    >
+    <span onclick="history.back()">Back</span>
+
+    <h1>Lesson 2</h1>
+
+    <h2>Conditional Statements and Functions</h2>
+
+    <h3>Conditionals</h3>
+    <h4>If Statements</h4>
+
+    <p>
+      An <strong>if statement</strong> is a conditional statement that only
+      performs an action based on whether or not the condition within the
+      statement is met (or, in other words, if it is true). The syntax of an if
+      statement is as follows:
+    </p>
+
+    <img
+      src="img/Screen Shot 2024-06-02 at 4.48.19 PM.jpg"
+      alt="Example"
+      width="500"
+    />
+
+    <p>
+      The statement within the curly brackets will only run if the condition
+      within the parantheses is met.
+    </p>
+
+    <h4>If-Else Statements</h4>
+
+    <p>
+      There are two possible scenarios in an if-else statement. If something is
+      true, something happens, and in any other case, something else happens.
+      Essentially, <strong>if</strong> operates just as a regular if statement
+      would. However, if the <strong>if</strong> condition is not satisfied, the
+      <strong>else</strong>
+      statement and the code within that block will run.
+    </p>
+    <p>The <strong>if-else</strong> syntax is as follows:</p>
+
+    <img
+      src="img/Screen Shot 2024-06-02 at 5.02.11 PM.jpg"
+      alt="Example"
+      width="500"
+    />
+
+    <h3>Comparison and Logical Operators</h3>
+
+    <p>
+      Used commonly within conditional statements are comparison and logical
+      operators. A <strong>comparison operator</strong> simply compares values.
+      These comparisons then evaluate to a boolean value (true or false).
+    </p>
+
+    <p>Comparison operators include:</p>
+
+    <section>
+      <ul>
+        <li><strong>>:</strong> greater than</li>
+        <li><strong><:</strong> less than</li>
+        <li><strong>>=:</strong> greater than or equal to</li>
+        <li><strong><=:</strong> less than or equal to</li>
+        <li><strong>===:</strong> equal to</li>
+        <li><strong>!==:</strong> not equal to</li>
+      </ul>
+    </section>
+
+    <p>
+      Here is an example of how comparison operators can be used in conditional
+      statements.
+    </p>
+
+    <img
+      src="img/Screen Shot 2024-06-02 at 4.51.06 PM.jpg"
+      alt="Example"
+      width="500"
+    />
+
+    <p>
+      <strong>Logical operators</strong> are used to combine or negate
+      conditions in order to perform comparisons. Examples of logical operators
+      include:
+    </p>
+
+    <section>
+      <ul>
+        <li><strong>&&:</strong> and</li>
+        <li><strong>||:</strong> or</li>
+        <li><strong>!:</strong> not</li>
+      </ul>
+    </section>
+
+    <p>
+      Here is an example of how logical oeprators can be used in conditional
+      statements:
+    </p>
+
+    <img
+      src="img/Screen Shot 2024-06-02 at 4.53.37 PM.jpg"
+      alt="Example"
+      width="500"
+    />
+    <h3>Wrap It Up!</h3>
+
+    <p>
+      To Wrap It Up!, <strong>conditional statements </strong>are statements
+      that are used to execute certain code segments only when a specific
+      condition is met. There are <strong>comparison operators</strong> that can
+      be used within these statements, which will compare values and run the
+      following code segment based on whether the comparison returned true or
+      false. Finally, <strong>logical operators </strong>can be used to combine
+      or negate conditions.
+    </p>
+
+    <p id="qqq">Take a quiz to test your knowledge!</p>
+
+    <section class="center">
+      <button id="lesson2pageb">Quiz 2</button>
+    </section>
+
+    <script>
+      lesson2pageb.addEventListener("click", function (event) {
+        window.location.href = "quiz2.html";
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lesson 1</title>
+    <link href="lesson1.css" rel="stylesheet" type="text/css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li>
+          <i class="material-icons" style="color: gray">home</i>
+          <a href="/">Home</a>
+        </li>
+        <li>
+          <i class="material-icons" style="color: gray">favorite</i>
+          <a href="about.html">About</a>
+        </li>
+        <li>
+          <i class="material-icons" style="color: gray">language</i>
+          <a href="languages.html">Languages</a>
+        </li>
+      </ul>
+    </nav>
+
+    <i class="material-icons" style="color: gray" onclick="history.back()"
+      >keyboard_backspace</i
+    >
+    <span onclick="history.back()">Back</span>
+
+    <h1>Lesson 1</h1>
+
+    <h2>Welcome to Intro to JavaScript!</h2>
+
+    <p id="par">
+      Programming can be a difficult skill to pick up. But, with this unit of
+      Programmingo!, JavaScript will become much easier to understand and
+      implement.
+    </p>
+
+    <h3>What is JavaScript?</h3>
+
+    <p id="par2">
+      JavaScript is a dynamic scripting language that allows developers to
+      create multimedia web pages that are easily controlled and manipulated
+      when used alongside HTML and CSS. Creator Brenden Eich took inspiration
+      from Java, Self, and Scheme to create JavaScript in 1995. This was done
+      because Netscape Communications, a company that created the Netscape
+      Navigator browser, wanted to make their webpages more dynamic, with
+      multimedia applications and activity.
+    </p>
+
+    <h3>The Basics: The Works and How They Work</h3>
+
+    <h4>Console</h4>
+
+    <p>
+      In JavaScript, the console is a panel that allows you to watch your code
+      in action. The console prints, or logs, the output of your code.
+    </p>
+
+    <p>
+      Within JavaScript, there are objects and methods. Objects are templates
+      that contain properties that allow programmers to define certain aspects
+      of an object, along with methods that can be called on objects to perform
+      certain actions.
+    </p>
+
+    <p>All right, so: objects, methods, properties.</p>
+
+    <p>
+      <strong>Console</strong> refers to an object, and various methods can be
+      called on this object to have it perform certain actions. For example,
+      <strong>.log()</strong> allows anything inside the parantheses to be
+      logged to the console (panel).
+    </p>
+
+    <img
+      src="img/Screen Shot 2024-06-01 at 8.07.53 PM.jpg"
+      alt="Photo of Creator"
+    />
+
+    <p>This line of code will cause this to be logged to the console:</p>
+    <img
+      src="img/Screen Shot 2024-06-01 at 8.22.03 PM.jpg"
+      alt="Photo of
+    Creator"
+      width="500"
+    />
+
+    <p>
+      <strong>Note:</strong> Statements don't need to be followed by a
+      semi-colon in JavaScript. There are cases in which they are required, so
+      it's better to get in the habit of using them. Many languages, including
+      Java, which JavaScript includes many elements of, actually require
+      semi-colons.
+    </p>
+
+    <p>
+      This can even be done with a <strong>data type</strong> known as
+      <strong>strings</strong>. Strings are always surrounded by quotation marks
+      <strong>("")</strong> or single quotes <strong>('')</strong> and include
+      letters, numbers,spaces, or symbols.
+    </p>
+
+    <img
+      src="img/Screen Shot 2024-06-01 at 8.34.30 PM.jpg"
+      alt="Photo of
+    Creator"
+      width="500"
+    />
+
+    <p>
+      Both of these statements will cause <strong>Hello World!</strong> to be
+      logged to the console.
+    </p>
+
+    <h4>Data Types and Variables</h4>
+
+    <p>
+      We just took a look at logging strings to the console. But what really is
+      a string?
+    </p>
+
+    <p>
+      A string is one of many data types in JavaScript.
+      <strong>Data types</strong> represent the types of data that can be stored
+      as variables. There are two types of data types (LOL): primitive and
+      non-primitive. Primitive types can only hold one singular value, while
+      non-primitive types can hold several values.
+    </p>
+
+    <p>For now, let's focus on primitive types. Primitive types include:</p>
+
+    <section id="primtypes">
+      <ul>
+        <li>
+          <strong>String:</strong> holds text in quotation marks or single
+          quotes
+        </li>
+        <li><strong>Number:</strong> holds any number</li>
+        <li>
+          <strong>BigInt:</strong> holds any number less than -2^63 and greater
+          than 2^63-1
+        </li>
+        <li><strong>Boolean:</strong> logical; holds true and false values</li>
+        <li><strong>Null:</strong> the variable has no value</li>
+        <li>
+          <strong>Undefined:</strong> the variables has not yet been assigned a
+          value
+        </li>
+        <li><strong>Symbol:</strong> represet and return unique identifiers</li>
+      </ul>
+    </section>
+
+    <p>
+      <strong>Variables</strong> can be defined using one of three keywords:
+    </p>
+
+    <section>
+      <ul>
+        <li>
+          <strong>var:</strong> can be used in any situation; should only be
+          used for older browsers
+        </li>
+        <li><strong>let:</strong> allows variables to be reassigned</li>
+        <li>
+          <strong>const:</strong> cannot be reassigned after its instantiation
+        </li>
+      </ul>
+    </section>
+
+    <h4>Arithmetic Operators and Concatenation</h4>
+
+    <p>Yay! Time for math!</p>
+    <p>
+      <strong>Operators</strong> are used to perform a certain action in code.
+      Arithmetic perators help perform calculations. Arithmetic operators in
+      JavaScript include:
+    </p>
+
+    <section>
+      <ul>
+        <li><strong>+:</strong> addition</li>
+        <li><strong>-:</strong> subtraction</li>
+        <li><strong>*:</strong> multiplication</li>
+        <li><strong>/:</strong> division</li>
+        <li><strong>%:</strong> remainder/modulo</li>
+      </ul>
+    </section>
+
+    <p>
+      The arithmetic operator + is also used to concatenate strings.
+      <strong>Concatetenation</strong> is the connection of strings using an
+      operator. This can be done to strings and variables that contain strings.
+      Here is an example of string concatenation within a
+      <strong>console.log()</strong>
+      statement.
+    </p>
+
+    <img
+      src="img/Screen Shot 2024-06-02 at 4.37.34 PM.jpg"
+      alt="Example"
+      width="500"
+    />
+
+    <p>This is what is logged to the console:</p>
+
+    <img
+      src="img/Screen Shot 2024-06-02 at 4.41.24 PM.jpg"
+      alt="Example"
+      width="500"
+    />
+
+    <p>This can also be done with variables. For example:</p>
+
+    <img
+      src="img/Screen Shot 2024-06-02 at 4.44.53 PM.jpg"
+      alt="Example"
+      width="500"
+    />
+    <p>This same output can be seen in the console:</p>
+    <img
+      src="img/Screen Shot 2024-06-02 at 4.41.24 PM.jpg"
+      alt="Example"
+      width="500"
+    />
+
+    <h3>Wrap It Up!</h3>
+
+    <p>
+      To Wrap It Up!, JavaScript is a dynamic language created to make webpages
+      dynamic and interactive. It usually goes hand-in-hand with HTML and CSS in
+      order to design and add content to webpages. Code can be printed, or
+      logged, to a panel called the console using the statement
+      <strong>console.log().</strong> Within the parantheses can be values of a
+      variety of <strong>data types</strong>, including Strings, Numbers,
+      BigInts, etc. Values of any of these data types can also be assigned to
+      <strong>variables</strong> that will store them for later use.
+      <strong>Arithmetic operators,</strong> such as + and -, can be used to
+      perform mathematical operations on numerical values. The operator + can be
+      used for <strong>concatenation.</strong>
+    </p>
+
+    <p id="qqq">Take a quiz to test your knowledge!</p>
+
+    <section class="center">
+      <button id="lesson1pageb">Quiz 1</button>
+    </section>
+
+    <script>
+      lesson1pageb.addEventListener("click", function (event) {
+        window.location.href = "quiz1.html";
+      });
+    </script>
+
+    <script src="itj.js"></script>
+  </body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz 1</title>
+    <link href="quiz1.css" rel="stylesheet" type="text/css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li>
+          <i class="material-icons" style="color: gray">home</i>
+          <a href="/">Home</a>
+        </li>
+        <li>
+          <i class="material-icons" style="color: gray">favorite</i>
+          <a href="about.html">About</a>
+        </li>
+        <li>
+          <i class="material-icons" style="color: gray">language</i>
+          <a href="languages.html">Languages</a>
+        </li>
+      </ul>
+    </nav>
+
+    <i class="material-icons" style="color: gray" onclick="history.back()"
+      >keyboard_backspace</i
+    >
+    <span onclick="history.back()">Back</span>
+
+    <h1>Lesson 2: Quiz</h1>
+
+    <div id="quiz" class="center">
+      <div id="question"></div>
+      <div id="options"></div>
+      <div id="submit"></div>
+    </div>
+
+    <script src="quiz2.js"></script>
+  </body>
+</html>

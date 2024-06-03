@@ -1,0 +1,95 @@
+body {
+  background-color: lavenderblush;
+}
+
+nav {
+  background-color: hotpink;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  font-size: larger;
+}
+
+nav > ul {
+  padding: 0;
+}
+
+nav > ul > li {
+  display: inline-block;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+nav > ul > li > a {
+  text-decoration: none;
+  color: #f2f2f2;
+}
+
+nav a:hover {
+  background-color: lavenderblush;
+  color: hotpink;
+}
+
+h1 {
+  color: hotpink;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+h2 {
+  color: hotpink;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+#par {
+  text-align: center;
+  padding-bottom: 20px;
+  padding-top: 10px;
+  color: gray;
+}
+
+.center {
+  text-align: center;
+}
+
+button {
+  margin-bottom: 30px;
+  background-color: hotpink;
+  color: lavenderblush;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 18px;
+  border: none;
+  font-family: "Times New Roman", Times, serif;
+}
+
+h3 {
+  color: hotpink;
+  padding-bottom: 15px;
+}
+
+h4 {
+  color: hotpink;
+}
+
+p {
+  text-align: left;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  color: gray;
+}
+
+section {
+  color: gray;
+}
+
+#qqq {
+  text-align: center;
+}
+
+span {
+  color: gray;
+  padding-left: 10px;
+}

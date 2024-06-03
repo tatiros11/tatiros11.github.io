@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Intro to Javascript</title>
+    <link href="itj.css" rel="stylesheet" type="text/css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li>
+          <i class="material-icons" style="color: gray">home</i>
+          <a href="/">Home</a>
+        </li>
+        <li>
+          <i class="material-icons" style="color: gray">favorite</i>
+          <a href="about.html">About</a>
+        </li>
+        <li>
+          <i class="material-icons" style="color: gray">language</i>
+          <a href="languages.html">Languages</a>
+        </li>
+      </ul>
+    </nav>
+
+    <i class="material-icons" style="color: gray" onclick="history.back()"
+      >keyboard_backspace</i
+    >
+    <span onclick="history.back()">Back</span>
+
+    <h1>Introduction to JavaScript</h1>
+
+    <div style="text-align: center">
+      <img
+        src="img/Screen Shot 2024-06-02 at 7.09.21 PM.jpg"
+        alt="Photo of Creator"
+        width="45"
+      />
+    </div>
+    <p>
+      Welcome to Introduction to JavaScript! Through various media, you can
+      learn the basics of JavaScript. Test your knowledge with our corresponding
+      quizzes.
+    </p>
+
+    <section class="center">
+      <div>
+        <button id="l1">Lesson 1</button>
+        <p>
+          Learn about the history of JavaScript and the basics, including data
+          types, variables, arithmetic operators, and concatenation.
+        </p>
+        <script>
+          l1.addEventListener("click", function (event) {
+            window.location.href = "lesson1.html";
+          });
+        </script>
+      </div>
+      <div>
+        <button id="q1">Quiz 1</button>
+        <script>
+          q1.addEventListener("click", function (event) {
+            window.location.href = "quiz1.html";
+          });
+        </script>
+      </div>
+      <div>
+        <button id="l2">Lesson 2</button>
+        <p>Learn about conditional statements and operators.</p>
+        <script>
+          l2.addEventListener("click", function (event) {
+            window.location.href = "lesson2.html";
+          });
+        </script>
+      </div>
+      <div>
+        <button id="q2">Quiz 2</button>
+        <script>
+          q2.addEventListener("click", function (event) {
+            window.location.href = "quiz2.html";
+          });
+        </script>
+      </div>
+    </section>
+
+    <script src="itj.js"></script>
+  </body>
+</html>

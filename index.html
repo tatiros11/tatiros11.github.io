@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Programmingo</title>
+    <link href="home.css" rel="stylesheet" type="text/css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li>
+          <i class="material-icons" style="color: gray">home</i>
+          <a href="/">Home</a>
+        </li>
+        <li>
+          <i class="material-icons" style="color: gray">favorite</i>
+          <a href="about.html">About</a>
+        </li>
+        <li>
+          <i class="material-icons" style="color: gray">language</i>
+          <a href="languages.html">Languages</a>
+        </li>
+      </ul>
+    </nav>
+
+    <h1 style="text-align: center">Programmingo!</h1>
+    <p id="p1">
+      Welcome to Programmingo! Programmingo! provides lessons and quizzes to
+      help aspiring programmers learn and develop their skills!
+    </p>
+    <section class="center">
+      <div>
+        <button id="button1">Introduction to JavaScript!</button>
+        <script>
+          button1.addEventListener("click", function (event) {
+            window.location.href = "itj.html";
+          });
+        </script>
+      </div>
+
+      <div>
+        <button id="button2">Introduction to Java! (Under Construction)</button>
+        <p>Don't Click! Lessons Incomplete</p>
+      </div>
+
+      <div>
+        <button id="button3">
+          Introduction to Python! (Under Construction)
+        </button>
+        <p>Don't Click! Lessons Incomplete</p>
+      </div>
+    </section>
+
+    <script src="homepage.js"></script>
+  </body>
+</html>
